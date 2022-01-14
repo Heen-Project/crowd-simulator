@@ -1,7 +1,7 @@
 console.clear()
 
 const config = {
-  src: 'dist/preview.png',
+  src: 'dist/img/preview.png',
   rows: 10,
   cols: 20
 }
@@ -129,7 +129,7 @@ img.onload = init
 img.src = config.src
 
 var background = new Image();
-background.src = "dist/background1.jpg";
+background.src = "dist/img/background1.jpg";
 
 const canvas = document.querySelector('#canvas')
 const ctx = canvas.getContext('2d')
